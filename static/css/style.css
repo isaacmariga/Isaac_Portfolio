@@ -1,0 +1,23 @@
+body{
+    background-color: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.nav_bar{
+    padding: 32px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+   
+}
+.logo{
+    background-size: contain;
+    max-height: 50px;
+}
+
+.nav_text{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-around;
+}
