@@ -16,7 +16,7 @@
     p {
         font-size: 1.5em;
         line-height: 2em;
-        padding-bottom: 0.5em;
+        padding-bottom: 2em;
     }
     
     strong {
@@ -89,15 +89,17 @@
     
     .about {
         height: 100vh;
-        width: 100vw;
+        width: auto;
+        padding: 10vh 20vh;
     }
     
     .who {
-        height: 100vh;
-        width: 100vw;
         display: grid;
+        grid-template-columns: 1fr 1fr;
         align-items: center;
         justify-content: center;
     }
+    
+    who_title {}
     
     .who_text {}
