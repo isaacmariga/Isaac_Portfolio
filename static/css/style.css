@@ -21,3 +21,14 @@ body{
     grid-template-columns: repeat(4, 1fr);
     justify-content: space-around;
 }
+
+.hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100vh;
+}
+
+.hero_image{
+    overflow: hidden;
+    max-width: 100%;
+}
