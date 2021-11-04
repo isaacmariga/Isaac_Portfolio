@@ -8,9 +8,19 @@
         padding-bottom: 0.5em;
     }
     
+    h2 {
+        font-size: 3em;
+        padding-bottom: 0.5em;
+    }
+    
     p {
         font-size: 1.5em;
         line-height: 2em;
+        padding-bottom: 0.5em;
+    }
+    
+    strong {
+        color: rgb(74, 41, 136);
     }
     
     body {
@@ -79,5 +89,15 @@
     
     .about {
         height: 100vh;
-        background-color: aquamarine;
+        width: 100vw;
     }
+    
+    .who {
+        height: 100vh;
+        width: 100vw;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .who_text {}
