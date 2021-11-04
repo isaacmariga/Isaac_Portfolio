@@ -3,11 +3,18 @@
         padding: 0;
     }
     
+    h1 {
+        font-size: 5.5em;
+        font-weight: 0;
+    }
+    
     body {
         background-color: none;
         margin: 0;
         padding: 0;
         border: 0;
+        font-family: 'Playfair Display', serif;
+        font-weight: 0;
     }
     
     .nav_bar {
@@ -30,7 +37,7 @@
     .hero {
         overflow: hidden;
         display: grid;
-        grid-template-columns: 1fr 4fr;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: 100vh;
     }
     
@@ -40,17 +47,27 @@
         max-height: 100vh;
     }
     
-    .hero_image {
-        padding-right: 100opx;
-        max-height: 100vh;
+    .hero_back {
+        padding-top: 16vh;
+        padding-left: 16vw;
+        max-height: 60vh;
+        max-width: auto;
         justify-self: center;
-        object-fit: contain;
-        object-position: 20% 10%;
+        align-self: center;
+        position: absolute;
+    }
+    
+    .hero_image {
+        padding-top: 10vh;
+        padding-left: 10vw;
+        max-height: 60vh;
+        max-width: auto;
+        justify-self: center;
+        align-self: center;
+        position: relative;
     }
     
     .hero_text {
-        border: 100px;
-        margin-right: 2.5em;
         justify-self: center;
         align-self: center;
     }
