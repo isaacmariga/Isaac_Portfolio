@@ -1,34 +1,61 @@
-body{
-    background-color: none;
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-
-.nav_bar{
-    padding: 32px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 2fr;
-   
-}
-.logo{
-    background-size: contain;
-    max-height: 50px;
-}
-
-.nav_text{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    justify-content: space-around;
-}
-
-.hero{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100vh;
-}
-
-.hero_image{
-    overflow: hidden;
-    max-width: 100%;
-}
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        background-color: none;
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+    
+    .nav_bar {
+        padding: 32px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr;
+    }
+    
+    .logo {
+        background-size: contain;
+        max-height: 50px;
+    }
+    
+    .nav_text {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: space-around;
+    }
+    
+    .hero {
+        overflow: hidden;
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        grid-template-rows: 100vh;
+    }
+    
+    .image-container {
+        overflow: hidden;
+        max-width: 100%;
+        max-height: 100vh;
+    }
+    
+    .hero_image {
+        padding-right: 100opx;
+        max-height: 100vh;
+        justify-self: center;
+        object-fit: contain;
+        object-position: 20% 10%;
+    }
+    
+    .hero_text {
+        border: 100px;
+        margin-right: 2.5em;
+        justify-self: center;
+        align-self: center;
+    }
+    
+    .about {
+        height: 100vh;
+        background-color: aquamarine;
+    }
