@@ -91,6 +91,8 @@
         height: 100vh;
         width: auto;
         padding: 10vh 20vh;
+        background-color: rgba(46, 12, 109, 0.13);
+        backgound- opacity: 10%;
     }
     
     .who {
@@ -99,7 +101,3 @@
         align-items: center;
         justify-content: center;
     }
-    
-    who_title {}
-    
-    .who_text {}
