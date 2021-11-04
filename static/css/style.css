@@ -4,8 +4,13 @@
     }
     
     h1 {
-        font-size: 5.5em;
-        font-weight: 0;
+        font-size: 5em;
+        padding-bottom: 0.5em;
+    }
+    
+    p {
+        font-size: 1.5em;
+        line-height: 2em;
     }
     
     body {
@@ -68,7 +73,7 @@
     }
     
     .hero_text {
-        justify-self: center;
+        padding-right: 10vh;
         align-self: center;
     }
     
