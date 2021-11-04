@@ -49,7 +49,7 @@
         justify-content: space-around;
     }
     
-    .hero {
+    #home {
         overflow: hidden;
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -87,7 +87,7 @@
         align-self: center;
     }
     
-    .about {
+    #about {
         height: 100vh;
         width: auto;
         padding: 10vh 20vh;
