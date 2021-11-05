@@ -1,6 +1,10 @@
     * {
         margin: 0;
         padding: 0;
+        text-decoration: none;
+        color: black;
+        list-style: none;
+        font-family: 'Playfair Display', serif;
     }
     
     h1 {
@@ -16,20 +20,12 @@
     p {
         font-size: 1.5em;
         line-height: 2em;
-        padding-bottom: 2em;
+        padding: 1em 0.5em;
+        text-align: left;
     }
     
     strong {
         color: rgb(74, 41, 136);
-    }
-    
-    body {
-        background-color: none;
-        margin: 0;
-        padding: 0;
-        border: 0;
-        font-family: 'Playfair Display', serif;
-        font-weight: 0;
     }
     
     .nav_bar {
@@ -88,6 +84,7 @@
     }
     
     #about {
+        overflow: hidden;
         height: 100vh;
         width: auto;
         padding: 10vh 20vh;
@@ -99,4 +96,55 @@
         grid-template-columns: 1fr 1fr;
         align-items: center;
         justify-content: center;
+    }
+    
+    #projects {
+        position: absolute;
+        height: 100vh;
+        width: auto;
+        overflow: hidden;
+        display: grid;
+        grid-template-rows: 1fr 4fr;
+        margin: 10vh
+    }
+    
+    .project_label {
+        position: relative;
+        align-self: center;
+        justify-self: right;
+    }
+    
+    .project_logo {
+        width: 24vw;
+    }
+    
+    .project_logo:hover {
+        transition: all 5s ease;
+        position: relative;
+    }
+    
+    .project_1 {
+        float: left;
+        max-height: auto;
+        max-width: 20vw;
+        padding: 2.5vw;
+    }
+    
+    .project_2 {
+        float: left;
+        max-height: auto;
+        max-width: 20vw;
+        padding: 2.5vw;
+    }
+    
+    .project_3 {
+        float: left;
+        max-height: auto;
+        max-width: 20vw;
+        padding: 2.5vw;
+    }
+    
+    .project_name {
+        text-align: center;
+        align-self: left;
     }
