@@ -1,150 +1,181 @@
-    * {
-        margin: 0;
-        padding: 0;
-        text-decoration: none;
-        color: black;
-        list-style: none;
-        font-family: 'Playfair Display', serif;
-    }
-    
-    h1 {
-        font-size: 5em;
-        padding-bottom: 0.5em;
-    }
-    
-    h2 {
-        font-size: 3em;
-        padding-bottom: 0.5em;
-    }
-    
-    p {
-        font-size: 1.5em;
-        line-height: 2em;
-        padding: 1em 0.5em;
-        text-align: left;
-    }
-    
-    strong {
-        color: rgb(74, 41, 136);
-    }
-    
-    .nav_bar {
-        padding: 32px;
-        display: grid;
-        grid-template-columns: 1fr 1fr 2fr;
-    }
-    
-    .logo {
-        background-size: contain;
-        max-height: 50px;
-    }
-    
-    .nav_text {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        justify-content: space-around;
-    }
-    
-    #home {
-        overflow: hidden;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 100vh;
-    }
-    
-    .image-container {
-        overflow: hidden;
-        max-width: 100%;
-        max-height: 100vh;
-    }
-    
-    .hero_back {
-        padding-top: 16vh;
-        padding-left: 16vw;
-        max-height: 60vh;
-        max-width: auto;
-        justify-self: center;
-        align-self: center;
-        position: absolute;
-    }
-    
-    .hero_image {
-        padding-top: 10vh;
-        padding-left: 10vw;
-        max-height: 60vh;
-        max-width: auto;
-        justify-self: center;
-        align-self: center;
-        position: relative;
-    }
-    
-    .hero_text {
-        padding-right: 10vh;
-        align-self: center;
-    }
-    
-    #about {
-        overflow: hidden;
-        height: 100vh;
-        width: auto;
-        padding: 10vh 20vh;
-        background-color: rgba(46, 12, 109, 0.13);
-    }
-    
-    .who {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    #projects {
-        position: absolute;
-        height: 100vh;
-        width: auto;
-        overflow: hidden;
-        display: grid;
-        grid-template-rows: 1fr 4fr;
-        margin: 10vh
-    }
-    
-    .project_label {
-        position: relative;
-        align-self: center;
-        justify-self: right;
-    }
-    
-    .project_logo {
-        width: 24vw;
-    }
-    
-    .project_logo:hover {
-        transition: all 5s ease;
-        position: relative;
-    }
-    
-    .project_1 {
-        float: left;
-        max-height: auto;
-        max-width: 20vw;
-        padding: 2.5vw;
-    }
-    
-    .project_2 {
-        float: left;
-        max-height: auto;
-        max-width: 20vw;
-        padding: 2.5vw;
-    }
-    
-    .project_3 {
-        float: left;
-        max-height: auto;
-        max-width: 20vw;
-        padding: 2.5vw;
-    }
-    
-    .project_name {
-        text-align: center;
-        align-self: left;
-    }
+                                                                                                                        * {
+                                                                                                                        margin: 0;
+                                                                                                                        padding: 0;
+                                                                                                                        text-decoration: none;
+                                                                                                                        color: black;
+                                                                                                                        list-style: none;
+                                                                                                                        font-family: 'Playfair Display', serif;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    h1 {
+                                                                                                                        font-size: 5em;
+                                                                                                                        padding-bottom: 0.5em;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    h2 {
+                                                                                                                        font-size: 3em;
+                                                                                                                        padding-bottom: 0.5em;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    p {
+                                                                                                                        font-size: 1.5em;
+                                                                                                                        line-height: 2em;
+                                                                                                                        padding: 1em 0.5em;
+                                                                                                                        text-align: left;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    strong {
+                                                                                                                        color: rgb(74, 41, 136);
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .nav_bar {
+                                                                                                                        padding: 32px;
+                                                                                                                        display: grid;
+                                                                                                                        grid-template-columns: 1fr 1fr 2fr;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .logo {
+                                                                                                                        background-size: contain;
+                                                                                                                        max-height: 50px;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .nav_text {
+                                                                                                                        display: grid;
+                                                                                                                        grid-template-columns: repeat(4, 1fr);
+                                                                                                                        justify-content: space-around;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    #home {
+                                                                                                                        overflow: hidden;
+                                                                                                                        display: grid;
+                                                                                                                        grid-template-columns: 1fr 1fr;
+                                                                                                                        grid-template-rows: 100vh;
+                                                                                                                        grid-template-areas: " a b ";
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .hero_back {
+                                                                                                                        padding-top: 16vh;
+                                                                                                                        padding-left: 16vw;
+                                                                                                                        max-height: 60vh;
+                                                                                                                        max-width: auto;
+                                                                                                                        justify-self: center;
+                                                                                                                        align-self: center;
+                                                                                                                        position: absolute;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .hero_image {
+                                                                                                                        padding-top: 10vh;
+                                                                                                                        padding-left: 10vw;
+                                                                                                                        max-height: 60vh;
+                                                                                                                        max-width: auto;
+                                                                                                                        justify-self: center;
+                                                                                                                        align-self: center;
+                                                                                                                        position: relative;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .hero_text {
+                                                                                                                        padding-right: 10vh;
+                                                                                                                        align-self: center;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    #about {
+                                                                                                                        height: 100%;
+                                                                                                                        width: auto;
+                                                                                                                        background-color: rgba(46, 12, 109, 0.13);
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .who {
+                                                                                                                        display: grid;
+                                                                                                                        grid-template-columns: 1fr 1fr;
+                                                                                                                        padding: 10vh 20vh;
+                                                                                                                        align-items: center;
+                                                                                                                        justify-content: center;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    #projects {
+                                                                                                                        position: absolute;
+                                                                                                                        height: 100%;
+                                                                                                                        width: auto;
+                                                                                                                        overflow: hidden;
+                                                                                                                        display: grid;
+                                                                                                                        grid-template-rows: 1fr 4fr;
+                                                                                                                        margin: 10vh
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .project_label {
+                                                                                                                        position: relative;
+                                                                                                                        align-self: center;
+                                                                                                                        justify-self: right;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .project_logo {
+                                                                                                                        width: 24vw;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .project_logo:hover {
+                                                                                                                        transition: all 5s ease;
+                                                                                                                        position: relative;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .project_1 {
+                                                                                                                        float: left;
+                                                                                                                        max-height: auto;
+                                                                                                                        max-width: 20vw;
+                                                                                                                        padding: 2.5vw;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .project_2 {
+                                                                                                                        float: left;
+                                                                                                                        max-height: auto;
+                                                                                                                        max-width: 20vw;
+                                                                                                                        padding: 2.5vw;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .project_3 {
+                                                                                                                        float: left;
+                                                                                                                        max-height: auto;
+                                                                                                                        max-width: 20vw;
+                                                                                                                        padding: 2.5vw;
+                                                                                                                    }
+                                                                                                                    
+                                                                                                                    .project_name {
+                                                                                                                        text-align: center;
+                                                                                                                        align-self: left;
+                                                                                                                    }
+                                                                                                                    /* Small devices (landscape phones, 576px and up) */
+                                                                                                                    
+                                                                                                                    @media (min-width: 576px) {}
+                                                                                                                    /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+                                                                                                                    
+                                                                                                                    @media (max-width: 768px) {}
+                                                                                                                    /* Large devices (desktops, 992px and up) */
+                                                                                                                    
+                                                                                                                    @media (max-width: 1300px) {
+                                                                                                                        #home {
+                                                                                                                            display: grid;
+                                                                                                                            grid-template-columns: 1fr;
+                                                                                                                            grid-template-areas: " b " " a ";
+                                                                                                                            padding: 20vw;
+                                                                                                                        }
+                                                                                                                        .image_container {
+                                                                                                                            order: 2;
+                                                                                                                        }
+                                                                                                                        .who {
+                                                                                                                            display: grid;
+                                                                                                                            grid-template-columns: 1fr;
+                                                                                                                            padding: 10vh 20vh;
+                                                                                                                            align-items: center;
+                                                                                                                            justify-content: center;
+                                                                                                                            text-align: justify;
+                                                                                                                        }
+                                                                                                                        #projects {
+                                                                                                                            position: absolute;
+                                                                                                                            height: 100vh;
+                                                                                                                            width: auto;
+                                                                                                                            overflow: hidden;
+                                                                                                                            display: grid;
+                                                                                                                            grid-template-rows: 1fr;
+                                                                                                                            margin: 10vh
+                                                                                                                        }
+                                                                                                                        /* Extra large devices (large desktops, 1200px and up) */
+                                                                                                                        @media (min-width: 1200px) {}
