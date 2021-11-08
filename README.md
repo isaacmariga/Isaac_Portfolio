@@ -6,13 +6,17 @@
 his background his current interests/hobbies/skills
 
 ## Setup/Installation Requirements
-None
+site live at
+https://isaacmariga.github.io/Marigas_Portfolio/
+
 ## Known Bugs
 Not fully responsive to smaller page sizes
+Live site at times has an error
 ## Technologies Used
 Build wth HTML and CSS
 ## Support and contact details
 Coontact me at : isaacmariga1@gmail.com or call 0706551542
 ### License
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+[MIT License]
+
 Copyright (c) {year} **{List of contributors or company name}**
