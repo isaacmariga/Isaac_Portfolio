@@ -1,6 +1,6 @@
 # {Marigas Portfolio}
-#### {A portfolio showcasing who Mariga is, and Projects he has worked on}, {Date of current version}
-#### By **{6/11/21}**
+#### {A portfolio showcasing who Mariga is, and Projects he has worked on}, {6/11/21}
+#### By **Isaac Wangombe**
 ## Description
 {Mariga;s Portfolio with his name, an image of him,a list of projects he has created with active links to them (either on GitHub or GitHub pages) For each, including a brief description of the project and what languages it uses An "About Me" section including:
 his background his current interests/hobbies/skills
