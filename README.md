@@ -19,4 +19,4 @@ Coontact me at : isaacmariga1@gmail.com or call 0706551542
 ### License
 This is under [MIT](license)
 
-Copyright (c) {year} **{List of contributors or company name}**
+Copyright (c) {2021} **{Isaac Wangombe}**
