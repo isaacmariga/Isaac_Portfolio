@@ -7,7 +7,7 @@ his background his current interests/hobbies/skills
 
 ## Setup/Installation Requirements
 site live at
-https://isaacmariga.github.io/Marigas_Portfolio/
+https://isaacmariga.github.io/Isaac_Portfolio/
 
 ## Known Bugs
 Not fully responsive to smaller page sizes
