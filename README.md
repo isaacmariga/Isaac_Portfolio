@@ -17,6 +17,6 @@ Build wth HTML and CSS
 ## Support and contact details
 Coontact me at : isaacmariga1@gmail.com or call 0706551542
 ### License
-This is under [MIT](License)
+This is under [MIT](license)
 
 Copyright (c) {year} **{List of contributors or company name}**
